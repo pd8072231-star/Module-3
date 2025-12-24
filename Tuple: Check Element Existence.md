@@ -10,8 +10,16 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+```
+my_tuple = eval(input())
+is_n_not_exists = 'n' not in my_tuple
+is_8_exists = '8' in my_tuple
+print(is_n_not_exists)
+print(is_8_exists)
+```
 
 ## Output
+<img width="993" height="358" alt="image" src="https://github.com/user-attachments/assets/bcefdc6d-f351-47da-8124-a2c1ef295ed8" />
 
 ## Result
+This program correctly uses the in operator to check for the presence of both a string and a number in a tuple.
